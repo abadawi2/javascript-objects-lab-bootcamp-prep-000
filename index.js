@@ -7,6 +7,6 @@ function updateObjectWithKeyAndValue(object,key,value){
 
 function updateObjectWithKeyAndValue(object,key,value){
   object.key= 'value';
-  return object;
+  var newObj = Object.assign({}, recipe,object)
+  return newObj;
 }
-  const recipe
